@@ -1,0 +1,47 @@
+#####################################################################################################
+# mybatis mapper xml 配置
+#mybatis:
+#  # mybatis.type-aliases-package：指定domain类的基包，即指定其在*Mapper.xml文件中可以使用简名来代替全类名（看后边的UserMapper.xml介绍）
+#  mapper-locations: classpath:mybatis/oracle/*/*.xml
+#  config-location: classpath:mybatis/mybatis-config.xml
+#####################################################################################################
+
+#####################################################################################################
+# 打印日志
+#logging:
+#  level:
+#    root: INFO
+#    org.hibernate: INFO
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+#    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+#    com.springms: DEBUG
+#####################################################################################################
+
+
+#####################################################################################################
+# eureka注册中心配置
+#####################################################################################################
+#eureka:
+#  client:
+#    serviceUrl:
+##      defaultZone: http://MicroServer:20010/eureka/
+#      defaultZone: http://127.0.0.1:19080/eureka/
+#      # defaultZone: http://192.168.0.90:20080/eureka/
+#
+#
+
+#####################################################################################################
+# Redis配置
+#####################################################################################################
+#spring:
+#  redis:
+#    database: 0
+#    host: 192.168.0.70
+#    port: 7079
+#    password: orientech!987
+#    timeout: 0
+#    pool:
+#      max-active: 8
+#      max-wait: -1
+#      max-idle: 8
+#      min-idle: 0
