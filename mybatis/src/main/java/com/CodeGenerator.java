@@ -18,7 +18,8 @@ import java.util.Scanner;
  * @author Chengx
  * @date 2019/2/26 14:39:16
  * 代码生成器
- * https://mp.baomidou.com/guide/generator.html
+ * 引自:https://mp.baomidou.com/guide/generator.html
+ * 内容略作修改
  */
 public class CodeGenerator {
 
@@ -115,10 +116,10 @@ public class CodeGenerator {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setSuperEntityClass("com.common.BaseEntity");
+//        strategy.setSuperEntityClass("com.common.BaseEntity");//自己生产代码需要修改的地方
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("com.common.BaseController");
+//        strategy.setSuperControllerClass("com.common.BaseController");//自己生产代码需要修改的地方
         strategy.setInclude(scanner("表名"));
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);

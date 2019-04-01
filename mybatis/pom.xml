@@ -36,11 +36,13 @@
 
         <!--自动模版引擎-->
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
+        <!--用于代码生成-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.0.7.1</version>
         </dependency>
+
         <!-- velocity 模板引擎, 默认 -->
         <!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity-engine-core -->
         <dependency>
@@ -66,7 +68,7 @@
         </dependency>
 
 
-
+        <!--mybatis-plus-->
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -80,13 +82,14 @@
             <version>3.0.7.1</version>
         </dependency>
 
-
+        <!--mysql-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
 
+        <!--lombok 可以减少很多重复代码的书写 比如说getter/setter/toString等方法的编写-->
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
